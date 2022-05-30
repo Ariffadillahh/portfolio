@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link href="dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <header class="bg-trasparant absolute top-0 left-0 w-full flex items-center z-10">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-2">
+            <a href="#home" class="font-bold text-xl text-yellow-500 uppercase block py-6 lg:pl-12">ariffadillah</a>
+          </div>
+          <div class="flex items-center px-4">
+            <button id="hamburger" name="hamberger" type="button" class="block absolute right-4 pr-5 lg:hidden">
+              <span class="hamburger-line"></span>
+              <span class="hamburger-line"></span>
+              <span class="hamburger-line"></span>
+            </button>
+
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:raouded-none lg:pr-10 dark:bg-slate-700 dark:shadow-slate-500 dark:lg:bg-transparent dark:lg:shadow-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a href="#home" class="text-base text-slate-800 py-2 mx-8 flex group-hover:text-yellow-500 transition duration-300 dark:text-white">Home</a>
+                </li>
+                <li class="group lg:hidden">
+                  <a href="#about" class="text-base text-slate-800 py-2 mx-8 flex group-hover:text-yellow-500 transition duration-300 dark:text-white">About</a>
+                </li>
+                <li class="group">
+                  <a href="#Portfolio" class="text-base text-slate-800 py-2 mx-8 flex group-hover:text-yellow-500 transition duration-300 dark:text-white">Portfolio</a>
+                </li>
+                <li class="group">
+                  <a href="#contact" class="text-base text-slate-800 py-2 mx-8 flex group-hover:text-yellow-500 transition duration-300 dark:text-white">Contact</a>
+                </li>
+                <li>
+                  <img src="dist/img/moon.png" id="icon" class="w-[30px] ml-7 mt-3 cursor-pointer lg:my-auto lg:mx-10" />
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Navbar ends -->
+
+    <!-- Home section start -->
+    <section id="home" class="pt-24 dark:bg-slate-700">
+      <div class="container">
+        <div class="flex flex-wrap lg:pl-12">
+          <div class="w-full self-center px-2 lg:w-1/2">
+            <h1 class="font-bold text-yellow-500 text-xl md:text-xl lg:text-2xl">Hello, <span class="block font-bold text-slate-900 text-2xl mt-1 uppercase md:text-3xl lg:text-4xl dark:text-white">I Am Arif fadillah</span></h1>
+            <h2 class="text-slate-500 mb-6 md:text-base lg:text-xl dark:text-slate-300">Siswa & Gamer</h2>
+            <p class="text-slate-500 md:text-base lg:text-xl dark:text-slate-300">Saya adalah seorang pelajar yang hobinya bermain <span class="text-yellow-500 font-bold">Game</span></p>
+            <a href="https://www.instagram.com/fdlharip/" target="_blank"
+              ><button class="px-5 py-2 bg-yellow-500 rounded-md mt-4 font-bold text-white cursor-pointer hover:bg-yellow-400 transition duration-300 lg:px-6 dark:text-slate-700">Hire me</button></a
+            >
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2 lg:pl-28 lg-:mx-auto">
+            <div class="relative mt-20 lg:mt-9">
+              <img src="dist/img/pp.png" alt="squidword" class="max-w-full mx-auto relative z-10" />
+              <span class="absolute bottom-0 left-1/2 -translate-x-1/2">
+                <svg widht="100" height="290" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill="#eab308"
+                    d="M52.7,-15.9C62.3,12.5,60,46,40.9,61.1C21.7,76.2,-14.4,72.9,-39.1,54.7C-63.7,36.6,-76.9,3.7,-68.5,-23.1C-60.1,-49.8,-30,-70.4,-4.3,-69C21.5,-67.6,43.1,-44.3,52.7,-15.9Z"
+                    transform="translate(100 100)"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Home section ends -->
+
+    <!-- About section start -->
+    <section id="about" class="pt-30 pb-32 dark:bg-slate-700">
+      <div class="container">
+        <div class="flex flex-wrap pt-3 mb-3 lg:pt-30">
+          <div class="w-full px-3 mb-3 lg:w-1/2 lg:pl-10">
+            <h1 class="text-slate-800 text-xl uppercase font-bold text-center mt-20 lg:text-2xl dark:text-white">About <span class="text-yellow-500">Me</span></h1>
+            <p class="text-slate-500 mt-3 text-base lg:text-lg dark:text-slate-300">
+              Haii guys nama aku Arif Fadillah aku ada seorang anak laki-laki yang berumur 16 tahun kalian bisa panggil aku Arif. Aku merupakan siswa dari SMK Bhumi husada kelas X jurusan RPL (Rekayasa Perangkat Lunak). Thakyou And Salam
+              Kenal Guys 🙌
+            </p>
+          </div>
+          <div class="w-full px-3 mb-3 lg:w-1/2 lg:mt-12 lg:pt-12 lg:pl-10">
+            <h2 class="font-bold mt-3 text-slate-700 lg:mt-6 dark:text-slate-100 capitalize">quotes of the day</h2>
+            <p class="mt-1 mb-3 text-slate-400 text-base dark:text-slate-300">"Your time is limited, so don't waste it living someone else's life".</p>
+            <div class="flex items-center">
+              <!-- ig -->
+              <a href="https://www.instagram.com/fdlharip/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-yellow-300 dark:text-slate-200">
+                <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>Instagram</title>
+                  <path
+                    d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                  />
+                </svg>
+              </a>
+              <!-- tt -->
+              <a href="https://www.tiktok.com/@fdlharip_" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-yellow-300 dark:text-slate-200">
+                <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>TikTok</title>
+                  <path
+                    d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"
+                  />
+                </svg>
+              </a>
+              <!-- yt -->
+              <a href="https://www.youtube.com/channel/UChGLYoQoqJ9ecsjQeB9oMeA" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-yellow-300 dark:text-slate-200">
+                <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>YouTube</title>
+                  <path
+                    d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About section ends -->
+
+    <!-- Protfolio section start -->
+    <section id="Portfolio" class="pt-36 pb-16 bg-slate-200 dark:bg-slate-500">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-12">
+            <h1 class="text-yellow-500 uppercase font-bold text-xl mb-3 lg:text-2xl">Portfolio</h1>
+            <h3 class="text-slate-600 text-lg dark:text-white">Project yang pernah saya buat</h3>
+          </div>
+        </div>
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10 dark:bg-slate-700">
+              <img src="dist/img/1.JPG" class="w-full" alt="Project1" />
+              <h1 class="px-4 py-4 font-bold dark:text-white">WEB SEKOLAH BHUMI HUSADA RPL</h1>
+              <p class="px-4 text-base text-slate-400 dark:text-slate-200">Ini adalah contoh Project pembuatan web sekolah rpl dengan menggunakan vanila CSS</p>
+              <a href="https://github.com/rplbhj/WebRPL" target="_blank"
+                ><button class="px-5 py-2 mx-4 my-3 bg-yellow-500 rounded-md mt-4 text-white cursor-pointer hover:bg-yellow-400 transition duration-300 lg:px-6 dark:text-slate-700">Lihat</button></a
+              >
+            </div>
+          </div>
+          <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10 dark:bg-slate-700">
+              <img src="dist/img/2.JPG" class="w-full" alt="Project1" />
+              <h1 class="px-4 py-4 font-bold dark:text-white">SYSTEM LOGIN DAN REGISTER</h1>
+              <p class="px-4 text-base text-slate-400 dark:text-slate-200">Membuat system Login dan Register dengan PHP Full Sesion</p>
+              <a href="https://github.com/rplbhj/Login-System" target="_blank"
+                ><button class="px-5 py-2 mx-4 my-3 bg-yellow-500 rounded-md mt-4 text-white cursor-pointer hover:bg-yellow-400 transition duration-300 lg:px-6 dark:text-slate-700">Lihat</button></a
+              >
+            </div>
+          </div>
+          <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10 dark:bg-slate-700">
+              <img src="dist/img/3.PNG" class="w-full" alt="Project1" />
+              <h1 class="px-4 py-4 font-bold dark:text-white uppercase">WEB PORTFOLIO Bootstrap</h1>
+              <p class="px-4 text-base text-slate-400 dark:text-slate-200">Membuat Portfolio dengan menggunakan Bootstrap 5</p>
+              <a href="https://github.com/Ariffadillahh/porfoliobootstrap" target="_blank"
+                ><button class="px-5 py-2 mx-4 my-3 bg-yellow-500 rounded-md mt-4 text-white cursor-pointer hover:bg-yellow-400 transition duration-300 lg:px-6 dark:text-slate-700">Lihat</button></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Protfolio section ends-->
+
+    <!-- Contact section start -->
+    <section id="contact" class="pt-28 pb-32 dark:bg-slate-700">
+      <div class="container">
+        <div class="w-full px-4 lg:w-3/4 mx-auto">
+          <h1 class="text-yellow-500 uppercase font-bold text-xl mb-5 lg:text-2xl text-center lg:text-center">contact</h1>
+          <form>
+            <div class="w-full pl-2 pt-10 mb-8">
+              <label for="nama" class="text-base p-3 font-bold uppercase dark:text-white">Nama</label>
+              <input type="text" id="nama" class="w-full mb-5 p-3 bg-slate-200 text-slate-800 rounded-md focus:outline-none focus:ring-yellow-500 focus:ring-1" />
+              <label for="email" class="text-base p-3 font-bold uppercase dark:text-white">Email</label>
+              <input type="email" id="email" class="w-full mb-5 p-3 bg-slate-200 text-slate-800 rounded-md focus:outline-none focus:ring-yellow-500 focus:ring-1" />
+              <label for="text" class="text-base font-bold p-3 uppercase dark:text-white">Message</label>
+              <textarea type="text" id="text" class="w-full h-32 p-3 bg-slate-200 text-slate-800 rounded-md focus:outline-none focus:ring-yellow-500 focus:ring-1"></textarea>
+              <button type="submit" class="w-full px-5 py-2 bg-yellow-500 rounded-full text-white mt-3 hover:bg-yellow-400 transition duration-300">Kirim</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Contact section ends -->
+
+    <!-- Footer start -->
+    <footer class="pt-20 pb-16 bg-yellow-700 dark:bg-slate-900">
+      <div class="container">
+        <div class="flex flex-wrap text-center">
+          <div class="w-full px-4 mb-12 font-medium md:w-1/3">
+            <h2 class="text-white text-xl uppercase mb-4 font-bold underline underline-offset-4">Ariffadillah</h2>
+            <h3 class="text-white mb-2 font-bold">Hubungi Kami</h3>
+            <p class="text-white font-base">fadilaharif99@gmail.com</p>
+            <p class="text-white font-base">Jl Dewa Jakarta Timur</p>
+          </div>
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h3 class="font-semibold text-xl text-white mb-5 underline underline-offset-4">Tautan</h3>
+            <ul>
+              <li>
+                <a href="#home" class="inline-block text-white mb-2 hover:underline">Home</a>
+              </li>
+              <li>
+                <a href="#about" class="inline-block text-white mb-2 hover:underline lg:hidden">Aabout</a>
+              </li>
+              <li>
+                <a href="#Portfolio" class="inline-block text-white mb-2 hover:underline">Portfolio</a>
+              </li>
+              <li>
+                <a href="#contact" class="inline-block text-white mb-2 hover:underline">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h3 class="font-semibold text-xl text-white mb-5 underline underline-offset-4">Sosial Media</h3>
+            <ul>
+              <li>
+                <a href="https://www.instagram.com/iklimasyafira/" target="_blank" class="inline-block text-white mb-2 hover:underline">Instagram</a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/channel/UChGLYoQoqJ9ecsjQeB9oMeA" target="_blank" class="inline-block text-white mb-2 hover:underline">YouTube</a>
+              </li>
+              <li>
+                <a href="https://www.tiktok.com/@fdlharip_" target="_blank" class="inline-block text-white mb-2 hover:underline">TikTok</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="w-full pt-10 border-t border-slate-400">
+            <p class="text-slate-200 text-sm">©2022 ARIF FADILLAH</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer ends -->
+
+    <script src="dist/js/script.js"></script>
+  </body>
+</html>
